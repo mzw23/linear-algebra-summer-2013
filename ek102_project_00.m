@@ -131,7 +131,7 @@ function cb_op00( ~, ~ )
 
     % Split steps up 
     for i = 1:COLUMNS
-        step_splitter(i) = 888;
+        step_splitter(i) = 01010;
     end
     
     disp_array = zeros( 1, (ROWS * COLUMNS) ) % pre-allocation
@@ -175,7 +175,7 @@ function cb_op01( ~, ~ )
 
     % Split steps up 
     for i = 1:COLUMNS
-        step_splitter(i) = 888;
+        step_splitter(i) = 01010;
     end
     
     disp_array = zeros( 1, (ROWS * COLUMNS) ) % pre-allocation
@@ -205,7 +205,7 @@ function cb_op02( ~, ~ )
 
     % Split steps up 
     for i = 1:COLUMNS
-        step_splitter(i) = 01010101010101;
+        step_splitter(i) = 01010;
     end
     
     disp_array = zeros( 1, (ROWS * COLUMNS) ) % pre-allocation
